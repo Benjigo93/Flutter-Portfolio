@@ -130,6 +130,7 @@ class MeteoState extends State<MeteoPage> {
                   margin: const EdgeInsets.only(top: 50.0),
                   child: Text(
                     errorMessage,
+                    textAlign: TextAlign.center,
                     style: const TextStyle(
                       fontSize: 25.0,
                       fontWeight: FontWeight.w500,
